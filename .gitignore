@@ -1,0 +1,38 @@
+.claude/
+Oral_screening_of_dental_calculus_gingivitis_and_d.pdf
+PROJECT_SUMMARY.md
+__pycache__/
+**/__pycache__/
+*.pth
+venv/
+
+# 분류 실험 (배포 불필요)
+azure_automl/
+ensemble/
+exp3/
+exp4/
+exp5/
+exp6/
+kaggle_notebooks/
+new_classification/
+test_app.py
+test_app_ensemble.py
+train_classification.py
+yolo_dataset_new/
+
+# 세그멘테이션 실험 (앙상블 제외)
+masking/exp1/
+masking/exp2/
+masking/exp3/
+masking/exp4/
+masking/exp5/
+masking/exp6/
+masking/exp7/
+masking/exp8/
+
+# 데이터셋 (test 제외)
+dataset/split_data/images/train/
+dataset/split_data/images/val/
+dataset/split_data/labels/train/
+dataset/split_data/labels/val/
+dataset/split_data/mask_labels/
