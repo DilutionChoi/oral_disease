@@ -77,7 +77,6 @@ with st.expander("📋 모델 및 성능 정보", expanded=False):
 
 ### 데이터셋
 
-구강 이미지에서 3가지 질환 영역을 픽셀 단위로 분류합니다 (YOLO polygon 라벨 → pixel mask).
 
 이미지 1장에 여러 클래스가 동시에 존재할 수 있어 클래스별 합계 ≠ 전체 이미지 수.
 
@@ -127,7 +126,6 @@ with st.expander("📋 모델 및 성능 정보", expanded=False):
 
 # ── 범례 ───────────────────────────────────────────────────────────────────────
 st.markdown(
-    "**Color Legend** &nbsp;&nbsp;"
     '<span style="background-color:rgba(220,50,50,0.7);padding:2px 10px;border-radius:4px;color:white">Calculus</span>'
     "&nbsp;&nbsp;"
     '<span style="background-color:rgba(50,100,220,0.7);padding:2px 10px;border-radius:4px;color:white">Caries</span>'
