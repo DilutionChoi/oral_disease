@@ -8,7 +8,7 @@ venv/
 
 # 분류 실험 (배포 불필요)
 azure_automl/
-ensemble/
+/ensemble/
 exp3/
 exp4/
 exp5/
